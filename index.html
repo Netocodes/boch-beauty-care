@@ -2,12 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- For Android (Chrome, Opera, etc.) -->
+    <!-- <meta name="theme-color" content="#99987b" /> -->
+
+    <!-- For iPhone (Safari) -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boch-Beauty-Care</title>
   </head>
-  <body>
+  <body class="bg-[#f9fcfd]">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Remove the "dark" class from the root element to prevent forced dark mode
+      document.documentElement.classList.remove("dark");
+    </script>
   </body>
 </html>

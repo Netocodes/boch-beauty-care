@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://netocodes.github.io/boch-beauty-care/",
   "dependencies": {
     "flowbite-react": "^0.10.2",
     "framer-motion": "^11.15.0",
